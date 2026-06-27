@@ -3,8 +3,8 @@
   "dateline": "Week of 22–26 June 2026",
   "published": "27 JUN 2026",
   "metrics": {
-    "regCount": "23",
-    "regDelta": "▲ +5 this week · 8 high-impact",
+    "regCount": "22",
+    "regDelta": "▲ +5 this week · 7 high-impact",
     "findings": "9",
     "findingsNote": "● 2 critical · 1 overdue",
     "posture": "Elevated",
@@ -13,59 +13,59 @@
     "streamsNote": "Daily & weekly cadence"
   },
   "briefing": {
-    "headline": "A softer capital regime meets a hardening AI-governance clock: relief on the balance sheet, scrutiny on the operating model.",
+    "headline": "Capital eases as the AI-enforcement clock starts — but the sharper exposure is the agents already in production.",
     "body": [
-      "The prudential pendulum has swung toward relief. The cross-agency capital re-proposal tabled in March lowers requirements overall and formally rescinds the contested 2023 'endgame' framework; with the comment window now closed, drafting of the final rules has begun. Markets read the direction as constructive — spreads on financial paper held firm into quarter-end and the economics of traditional lending improved at the margin.",
-      "Where capital eases, conduct and resilience tighten. Supervisors have made operational resilience, third-party concentration and the governance of AI-assisted decisions the spine of the coming examination cycle, and the clock is now explicit: the EU AI Act's enforcement powers and general-purpose-AI duties take effect on 2 August. With roughly four in five firms reporting AI-related incidents yet only about one in five holding a mature governance model, the distance between deployment and control has become the supervisory story."
+      "The prudential pendulum has swung toward relief. The cross-agency capital re-proposal tabled in March lowers requirements overall and formally rescinds the contested 2023 'endgame' framework; with the comment window closed on 18 June, drafting of the final rules has begun. Markets read the direction as constructive — spreads on financial paper held firm into quarter-end and the economics of traditional lending improved at the margin.",
+      "Where capital eases, conduct and resilience tighten. On 2 August the EU AI Act's enforcement powers over general-purpose-AI providers, its Article 50 transparency duties and national market-surveillance authority all switch on — even as the high-risk (Annex III) obligations have been pushed back to December 2027 under May's Digital Omnibus. The deferral is not the reprieve it looks like: the agentic systems creating the exposure are already in production. Close to three-quarters of firms plan to deploy agents within two years, only about one in five have a mature governance model, and over a third admit they could not shut down a rogue agent if one emerged."
     ],
     "watching": [
-      { "n": "1", "title": "The AI-governance gap", "note": "~75% plan to deploy agents within two years; ~21% have mature governance. That delta is the examination risk." },
-      { "n": "2", "title": "Capital reform direction", "note": "Lighter requirements may repatriate activity to the regulated balance sheet; watch the finalisation drafting." },
-      { "n": "3", "title": "Concentration & resilience", "note": "Correlated cloud-zone failures and the first CTPP designations push third-party risk onto the board agenda." }
+      { "n": "1", "title": "The AI-governance gap", "note": "~75% plan to deploy agents; ~21% have mature governance; 35% admit they could not shut one down. That gap is the exam risk." },
+      { "n": "2", "title": "MiCA hard stop — 1 July", "note": "Grandfathering ends with no extension; unauthorised crypto-asset providers serving EU clients fall offside overnight." },
+      { "n": "3", "title": "Capital reform direction", "note": "Lighter requirements may repatriate activity to the regulated balance sheet; watch the finalisation drafting." }
     ]
   },
   "reg": [
-    { "window": "Aug 2", "jur": "EU", "title": "AI Act — GPAI duties & enforcement begin", "detail": "Commission enforcement powers and general-purpose-AI transparency duties take effect; high-risk obligations bite, with fines up to 7% of global turnover.", "impact": "High" },
-    { "window": "Jul–Sep", "jur": "US", "title": "Capital framework re-proposal — finalisation phase", "detail": "With comments closed on 18 June, agencies begin drafting final rules that lower requirements versus the rescinded 2023 framework.", "impact": "High" },
-    { "window": "Ongoing", "jur": "EU", "title": "DORA — Critical Third-Party Provider designations", "detail": "Supervisors progress the first CTPP designations off the register of information; concentration-risk oversight enters its binding phase.", "impact": "High" },
-    { "window": "Jun 30", "jur": "Global", "title": "CPMI–IOSCO — margin transparency consultation closes", "detail": "Final window to respond on initial-margin transparency and procyclicality in centrally cleared markets.", "impact": "Medium" },
-    { "window": "Jul 1", "jur": "EU", "title": "MiCA — transitional period expires", "detail": "Grandfathering for crypto-asset service providers lapses in several member states; full authorisation becomes mandatory.", "impact": "Medium" },
-    { "window": "Jul 3", "jur": "UK", "title": "Tokenisation — FCA/BoE call for input closes", "detail": "Responses due on the regulatory treatment of tokenised funds and on-chain settlement.", "impact": "Medium" },
-    { "window": "Q3", "jur": "UK", "title": "Operational-incident & third-party reporting — build phase", "detail": "Firms scope the new serious-incident and material-arrangement regime ahead of its 18 March 2027 go-live.", "impact": "Medium" }
+    { "window": "Jul 1", "jur": "EU", "title": "MiCA — transitional period ends", "detail": "Grandfathering for crypto-asset service providers closes across all member states with no extension; unauthorised firms serving EU clients fall outside the law.", "impact": "High" },
+    { "window": "Jul 3", "jur": "UK", "title": "Tokenised securities — feedback closes", "detail": "Responses due to the FCA and Bank of England on the regulatory treatment of tokenised securities, shaping the future approach.", "impact": "Medium" },
+    { "window": "Jul 6", "jur": "UK", "title": "Commodity derivatives — new regime takes effect", "detail": "Revised position-limits and ancillary-activities rules apply, with the implementation period running to 18 July.", "impact": "Medium" },
+    { "window": "Aug 2", "jur": "EU", "title": "AI Act — enforcement powers activate", "detail": "Commission penalty powers over GPAI providers, Article 50 transparency duties and market-surveillance authority switch on; high-risk (Annex III) obligations now deferred to December 2027.", "impact": "High" },
+    { "window": "Jul–Sep", "jur": "US", "title": "Capital framework re-proposal — finalisation phase", "detail": "With comments closed on 18 June, agencies begin drafting final rules that lower requirements versus the rescinded 2023 'endgame' framework.", "impact": "High" },
+    { "window": "Sep 30", "jur": "UK", "title": "Cryptoasset authorisation — gateway opens", "detail": "The FCA begins accepting applications for regulated cryptoasset activities; firms must line up permissions ahead of the new regime.", "impact": "Medium" },
+    { "window": "Ongoing", "jur": "EU", "title": "DORA — Critical Third-Party Provider designations", "detail": "Supervisors progress the first CTPP designations off the register of information; concentration-risk oversight enters its binding phase.", "impact": "High" }
   ],
   "controls": [
+    { "area": "THIRD PARTY", "severity": "Critical", "title": "Correlated cloud-zone failure overwhelmed assumed redundancy", "detail": "A multi-zone provider outage defeated a redundancy model that presumed zone independence — a direct parallel to the concentration risk DORA is built to surface.", "status": "Open", "age": "6 DAYS OPEN" },
     { "area": "RESILIENCE", "severity": "Critical", "title": "Recovery failover did not trigger in a trading outage", "detail": "An hours-long disruption to trading infrastructure exposed a disaster-recovery failover that did not invoke as designed; recovery was manual and slow.", "status": "In review", "age": "9 DAYS OPEN" },
-    { "area": "THIRD PARTY", "severity": "Critical", "title": "Correlated cloud-zone failure overwhelmed assumed redundancy", "detail": "A multi-zone provider outage defeated a redundancy model that presumed zone independence — a direct parallel to DORA concentration risk.", "status": "Open", "age": "6 DAYS OPEN" },
-    { "area": "AI GOVERNANCE", "severity": "High", "title": "Agentic AI deployed ahead of an accountability framework", "detail": "Autonomous agents chained actions across systems with no defined escalation threshold and no cross-agent audit trail.", "status": "Remediation", "age": "11 DAYS OPEN" },
+    { "area": "AI GOVERNANCE", "severity": "High", "title": "No tested kill-switch for an autonomous agent", "detail": "An agentic deployment lacked a tested means to halt it mid-action — the gap roughly a third of firms now admit to in their own estates.", "status": "Remediation", "age": "11 DAYS OPEN" },
     { "area": "FINANCIAL CRIME", "severity": "High", "title": "AML programme implemented in name only", "detail": "A sustained gap between a documented programme and its actual operation drew a record penalty under an 'implementation, not design' enforcement lens.", "status": "In progress", "age": "18 DAYS OPEN" },
     { "area": "IDENTITY & ACCESS", "severity": "Medium", "title": "Privileged-access recertification lapsed", "detail": "Quarterly attestation for elevated accounts slipped across several business units; standing access went unreviewed.", "status": "Remediation", "age": "12 DAYS OPEN" },
     { "area": "SURVEILLANCE", "severity": "Medium", "title": "Trade-surveillance model drift", "detail": "Alert thresholds calibrated to stale volatility produced a measurable false-negative gap.", "status": "In review", "age": "8 DAYS OPEN" }
   ],
   "board": {
-    "headline": "The week capital got cheaper and accountability got more expensive.",
+    "headline": "The week capital got cheaper, crypto's grace period ended, and AI accountability got a date.",
     "body": [
-      "Two forces are pulling in opposite directions for the board. On capital, the proposed framework lowers the prudential floor — a genuine easing after a decade of accumulation. But the relief is conditional: supervisors expect freed headroom to be matched by demonstrable operational strength, not distributed as though the risk had simply disappeared.",
-      "On AI, the accountability question has sharpened to a point. With agentic systems now taking and chaining decisions, and enforcement only weeks away, the board's exposure is no longer the model that scores but the agent that acts. The institutions absorbing this fastest are reclassifying agent configuration as a risk control and naming an owner before deployment — not after an incident."
+      "Two forces are pulling in opposite directions for the board. On capital, the proposed framework lowers the prudential floor — a genuine easing after a decade of accumulation. But the relief is conditional: supervisors expect freed headroom to be matched by demonstrable operational strength, not distributed as though the underlying risk had disappeared.",
+      "On AI, the accountability question now has a date on it. Enforcement powers and transparency duties activate on 2 August; the deferral of the high-risk regime to December 2027 is tempting to read as breathing room, but the agentic systems that create the exposure are already live, and a third of firms concede they could not stop one mid-action. The institutions absorbing this fastest are reclassifying agent configuration as a risk control and naming an owner — and a kill-switch — before deployment, not after an incident."
     ],
     "decisions": [
-      "Confirm a named accountable owner and explicit escalation thresholds for every agentic-AI deployment ahead of 2 August.",
+      "Confirm a named accountable owner, explicit escalation thresholds and a tested kill-switch for every agentic-AI deployment before 2 August.",
       "Require a tested exit and cross-zone failover for the most concentrated critical third-party dependency.",
-      "Resolve how freed capital headroom is governed — reinvested in resilience or returned — with the rationale minuted."
+      "Confirm all EU crypto-asset activity is MiCA-authorised or wound down ahead of the 1 July transitional cut-off."
     ],
-    "statValue": "21%",
-    "statNote": "of firms hold a mature governance model for agentic AI, against roughly 75% planning to deploy it."
+    "statValue": "35%",
+    "statNote": "of firms admit they could not shut down a rogue AI agent if one emerged."
   },
   "essay": {
     "title": "Our frameworks were built for models that score. We now supervise agents that act.",
     "byline": "BY THE VIRTUAL OFFICER",
     "lead": "For a decade the central object of model risk was the score. A system produced a number — a probability of default, a fraud likelihood, a suitability flag — and a human decided what to do with it. Governance grew up around that division of labour: validate the model, document the assumptions, review the output. The artefact was a recommendation, and a person owned the act.",
     "bodyTop": [
-      "That division is dissolving. Agentic systems do not stop at the score; they take the action, and then hand it to another agent that takes the next one. The chain can cross systems, vendors and decisions with no human at any single link — and no oversight function holding a complete view of the whole. The governance built for recommendations has very little to say about a sequence of autonomous acts."
+      "That division is dissolving. Agentic systems do not stop at the score; they take the action, and then hand it to another agent that takes the next one. The chain can cross systems, vendors and decisions with no human at any single link — and no oversight function holding a complete view of the whole. The governance built for recommendations has very little to say about a sequence of autonomous acts, which is why more than a third of firms now admit they could not reliably halt an agent once it is running."
     ],
     "pullquote": "The risk is no longer the model that scores. It is the agent that acts — and the second agent it hands the action to.",
     "bodyBottom": [
-      "This is why the supervisory centre of gravity is moving from model documentation to operating-model design. The questions that matter now are not 'is the model accurate?' but 'where does the agent escalate, to whom, and on what threshold?', 'can we reconstruct a decision across the chain?', and 'who is accountable before deployment, rather than after the incident?' Agent configuration — what a system may access, what it may action, when it must stop — is a risk control, not an IT parameter, and the institutions that treat it that way are the ones who will pass the coming examinations.",
-      "The enforcement clock makes this concrete: the window opens in August, and retrofitting governance under scrutiny is the most expensive way to arrive. The firms that move first will not merely be compliant — they will have given themselves genuine permission to scale, which is the entire point of building the controls before, rather than after, the agents are already loose in the estate."
+      "This is why the supervisory centre of gravity is moving from model documentation to operating-model design. The questions that matter are no longer 'is the model accurate?' but 'where does the agent escalate, to whom, and on what threshold?', 'can we reconstruct a decision across the chain?', and 'who is accountable — and what stops it — before deployment rather than after the incident?' Agent configuration, including the means to halt it, is a risk control, not an IT parameter, and the institutions that treat it that way are the ones who will pass the coming examinations.",
+      "The enforcement calendar tempts complacency. With penalty powers live in August but the high-risk regime deferred to the end of 2027, it is easy to read a reprieve into the timeline. There is none worth taking: the agents are already in the estate, and retrofitting governance under scrutiny is the most expensive way to arrive. The firms that move first will not merely be compliant — they will have earned genuine permission to scale, which is the entire point of building the controls before, rather than after, the agents are loose."
     ]
   }
 }
