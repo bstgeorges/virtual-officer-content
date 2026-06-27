@@ -3,9 +3,9 @@
   "dateline": "Week of 22–26 June 2026",
   "published": "27 JUN 2026",
   "metrics": {
-    "regCount": "18",
-    "regDelta": "▲ +3 this week · 6 high-impact",
-    "findings": "7",
+    "regCount": "21",
+    "regDelta": "▲ +4 this week · 7 high-impact",
+    "findings": "8",
     "findingsNote": "● 2 critical · 1 overdue",
     "posture": "Elevated",
     "postureLevel": 3,
@@ -13,58 +13,58 @@
     "streamsNote": "Daily & weekly cadence"
   },
   "briefing": {
-    "headline": "Funding markets steady as rate-cut bets firm; supervisors pivot to operational resilience.",
+    "headline": "Capital reform turns lighter-touch even as the AI-governance clock counts down to August enforcement.",
     "body": [
-      "Overnight funding held near the policy floor as forward markets priced a higher probability of easing into the third quarter. Credit spreads on financial paper tightened modestly, and deposit betas across regional lenders showed early signs of stabilising after eighteen months of repricing pressure.",
-      "The supervisory tone, however, is shifting. Recent communications from prudential authorities place operational resilience, third-party concentration and the governance of AI-enabled decisioning at the centre of the upcoming examination cycle — a theme this brief has tracked across both jurisdictions for six consecutive weeks."
+      "The prudential direction of travel has reversed. The latest cross-agency capital proposals lower requirements overall and rescind the more onerous 2023 framework, improving the economics of traditional lending and, on the margin, pulling some activity back toward the regulated balance sheet. Funding markets read the shift as supportive, with spreads on financial paper holding firm into quarter-end.",
+      "Supervisory attention, however, is moving the opposite way. With AI Act enforcement powers and general-purpose-AI duties taking effect on 2 August, the documentation bar for model-assisted decisions is rising sharply, while third-party concentration and operational-incident readiness now sit at the centre of the examination cycle across both jurisdictions."
     ],
     "watching": [
-      { "n": "1", "title": "Easing path & deposit betas", "note": "Forward curve firming a Q3 cut; watch regional deposit repricing." },
-      { "n": "2", "title": "Third-party concentration", "note": "Supervisors flagging cloud and payments single-points-of-failure." },
-      { "n": "3", "title": "AI decision governance", "note": "Documentation bar rising for model-assisted credit and surveillance." }
+      { "n": "1", "title": "AI-governance clock", "note": "Five weeks to AI Act enforcement; evidence for model-assisted decisions must be examination-ready." },
+      { "n": "2", "title": "Capital reform direction", "note": "Lighter requirements may repatriate activity to banks; watch the finalisation drafting." },
+      { "n": "3", "title": "Critical third-party oversight", "note": "First CTPP designations and tighter UK–EU coordination raise the bar on concentration." }
     ]
   },
   "reg": [
-    { "window": "Jul 1", "jur": "EU", "title": "DORA — register of information due", "detail": "Financial entities must file registers of all ICT third-party arrangements with competent authorities.", "impact": "High" },
-    { "window": "Jul 15", "jur": "US", "title": "Capital framework re-proposal — comment close", "detail": "Final window to respond to the revised large-bank capital rules before drafting resumes.", "impact": "High" },
-    { "window": "Aug 4", "jur": "UK", "title": "Consumer Duty — annual board report", "detail": "Boards must attest to good outcomes across the full product set for the first full cycle.", "impact": "Medium" },
-    { "window": "Aug", "jur": "EU", "title": "AI Act — GPAI transparency obligations", "detail": "Obligations on general-purpose AI providers begin to bite for model-assisted decisioning.", "impact": "High" },
-    { "window": "Sep 30", "jur": "US", "title": "Cyber incident materiality — supervisory guidance", "detail": "Refined expectations on the four-day disclosure clock for material cyber events.", "impact": "Medium" },
-    { "window": "Q3", "jur": "Global", "title": "Climate disclosure standards — phase-in", "detail": "First mandatory reporting periods open under the converging global baseline.", "impact": "Medium" }
+    { "window": "Aug 2", "jur": "EU", "title": "AI Act — GPAI duties & enforcement begin", "detail": "Commission enforcement powers and transparency obligations for general-purpose AI providers take effect, with fines up to 7% of global turnover.", "impact": "High" },
+    { "window": "Jul–Sep", "jur": "US", "title": "Capital framework re-proposal — finalisation phase", "detail": "With the comment window closed on 18 June, agencies begin drafting final rules that lower requirements versus the rescinded 2023 framework.", "impact": "High" },
+    { "window": "Ongoing", "jur": "EU", "title": "DORA — Critical Third-Party Provider designations", "detail": "Supervisors progress the first CTPP designations off the register of information, sharpening concentration-risk oversight.", "impact": "High" },
+    { "window": "Q3", "jur": "UK", "title": "Operational-incident & third-party reporting — build phase", "detail": "Firms scope systems for the new serious-incident and material-arrangement regime ahead of the 18 March 2027 go-live.", "impact": "Medium" },
+    { "window": "H2", "jur": "UK", "title": "Consumer Duty — annual board attestation", "detail": "Boards prepare the next annual assessment of good outcomes across the full product set.", "impact": "Medium" },
+    { "window": "2026–28", "jur": "EU", "title": "Banking supervisory priorities — resilience & ICT", "detail": "The new supervisory cycle centres on operational resilience, ICT capability and geopolitical risk.", "impact": "Medium" }
   ],
   "controls": [
     { "area": "IDENTITY & ACCESS", "severity": "Critical", "title": "Privileged-access recertification lapsed", "detail": "Quarterly attestation for elevated accounts missed across several business units; standing access went unreviewed.", "status": "Remediation", "age": "12 DAYS OPEN" },
-    { "area": "SURVEILLANCE", "severity": "High", "title": "Trade-surveillance model drift", "detail": "Alert thresholds calibrated to stale volatility produced a measurable false-negative gap.", "status": "In review", "age": "8 DAYS OPEN" },
-    { "area": "THIRD PARTY", "severity": "High", "title": "Payments-processor SOC 2 gap", "detail": "A critical vendor's control report carried unremediated exceptions over the contract renewal.", "status": "Open", "age": "5 DAYS OPEN" },
-    { "area": "FINANCIAL CONTROL", "severity": "Medium", "title": "Manual journal-entry approval bypass", "detail": "Segregation-of-duties control circumvented for a class of period-end adjustments.", "status": "Remediated", "age": "CLOSED" },
-    { "area": "FINANCIAL CRIME", "severity": "Medium", "title": "KYC refresh backlog — high-risk tier", "detail": "Periodic-review cadence slipped beyond policy for the highest-risk customer segment.", "status": "In progress", "age": "15 DAYS OPEN" },
-    { "area": "RESILIENCE", "severity": "Low", "title": "Untested recovery runbook", "detail": "A core service's failover procedure had not been exercised within the policy window.", "status": "Scheduled", "age": "3 DAYS OPEN" }
+    { "area": "AI GOVERNANCE", "severity": "Critical", "title": "Model-decision documentation gap", "detail": "The evidence trail for model-assisted credit and surveillance decisions fell short of the rising supervisory bar.", "status": "Open", "age": "6 DAYS OPEN" },
+    { "area": "THIRD PARTY", "severity": "High", "title": "Cloud concentration without a tested exit", "detail": "Multiple critical services mapped to a single provider region with no exercised exit or failover plan.", "status": "In review", "age": "9 DAYS OPEN" },
+    { "area": "RESILIENCE", "severity": "High", "title": "Incident-reporting readiness gap", "detail": "Detection-to-report timelines would miss the incoming serious-incident clock under the new regime.", "status": "In progress", "age": "4 DAYS OPEN" },
+    { "area": "SURVEILLANCE", "severity": "Medium", "title": "Trade-surveillance model drift", "detail": "Alert thresholds calibrated to stale volatility produced a measurable false-negative gap.", "status": "In review", "age": "8 DAYS OPEN" },
+    { "area": "FINANCIAL CRIME", "severity": "Medium", "title": "KYC refresh backlog — high-risk tier", "detail": "Periodic-review cadence slipped beyond policy for the highest-risk customer segment.", "status": "In progress", "age": "15 DAYS OPEN" }
   ],
   "board": {
-    "headline": "The week the second line stopped reacting and started forecasting.",
+    "headline": "The week resilience stopped being a cost centre and started setting the agenda.",
     "body": [
-      "Three observations for the board this week. First, the cost of control is migrating from headcount to data quality — the institutions absorbing regulatory change fastest are those that already treat their control inventory as a live dataset rather than a quarterly attestation.",
-      "Second, third-party concentration is now a board-level resilience question, not a procurement footnote. And third, the supervisory bar for explaining AI-assisted decisions has risen sharply — documentation that was adequate a year ago no longer is."
+      "Three observations for the board. First, the prudential floor is being lowered — the latest capital proposals reduce requirements rather than add to them — but the relief comes with a clear condition: supervisors expect that headroom to be matched by demonstrable operational strength.",
+      "Second, the supervisory bar for explaining AI-assisted decisions has risen sharply with enforcement weeks away, and third, third-party concentration is now a board-level resilience question rather than a procurement footnote, with the first critical-provider designations underway."
     ],
     "decisions": [
-      "Approve reclassification of two vendors as critical-or-important under the resilience framework.",
-      "Endorse moving the control inventory to continuous monitoring ahead of the next exam cycle.",
-      "Note the AI-decisioning documentation uplift and confirm second-line ownership."
+      "Approve the AI-decisioning documentation uplift ahead of the 2 August enforcement date.",
+      "Endorse a tested exit and failover plan for the most concentrated critical third-party dependency.",
+      "Note the build plan for the incoming operational-incident reporting regime and confirm second-line ownership."
     ],
-    "statValue": "−31%",
-    "statNote": "reduction in mean remediation time where findings are tracked as structured data vs. documents."
+    "statValue": "2 AUG",
+    "statNote": "the date EU AI Act enforcement powers and GPAI transparency duties take effect."
   },
   "essay": {
-    "title": "Compliance is becoming a data product.",
+    "title": "As capital rules loosen, resilience becomes the binding constraint.",
     "byline": "BY THE VIRTUAL OFFICER",
-    "lead": "For most of its history, the compliance function has produced documents: policies, attestations, board packs, examination responses. The artefact was the deliverable, and its value decayed the moment it was filed. That model is quietly ending.",
+    "lead": "For the better part of a decade, the prudential conversation had a single currency: capital. How much to hold, against which assets, under whose model. This year the direction of travel reversed — the latest proposals lighten the load rather than add to it — and in doing so they quietly moved the binding constraint somewhere else.",
     "bodyTop": [
-      "The regulators setting the pace now expect institutions to demonstrate control effectiveness continuously — to answer, on any given Tuesday, which controls are operating, where coverage is thin, and how quickly a failure was caught and closed. Those are not questions a document answers well. They are questions a dataset answers."
+      "That constraint is now operational. Supervisors who once asked whether an institution could absorb a loss are increasingly asking whether it can keep running — through a failed vendor, a drifting model, or a cyber event measured in hours rather than quarters. Capital answers the first question; it says almost nothing about the second."
     ],
-    "pullquote": "When the control inventory becomes queryable, the second line stops being a cost of doing business and starts being an early-warning system.",
+    "pullquote": "Capital tells you whether a firm can survive a loss. Resilience tells you whether it can survive a Tuesday.",
     "bodyBottom": [
-      "This is the premise behind a virtual officer: not the replacement of judgement, but the industrialisation of everything that precedes it. The scanning, the drafting, the digesting, the horizon-watching — the work that consumes the function's hours and yet rarely requires its expertise. Automate the gathering, and you free the function to do the one thing software cannot: decide.",
-      "The institutions that internalise this first will not simply be more efficient. They will be operating on a faster clock than their regulators — and, eventually, than their risks."
+      "This is why the regulatory centre of gravity has shifted to third-party concentration, incident reporting and the governance of automated decisions. These are not capital questions. They are questions about whether an institution understands its own dependencies well enough to defend them — and can prove it on demand, not once a year.",
+      "The firms that adapt fastest will treat resilience the way they once treated capital: as a number managed continuously, not a posture asserted annually. The prudential floor is being lowered. The operational bar is not."
     ]
   }
 }
