@@ -1,4 +1,10 @@
 {
+  "_meta": {
+    "version": "v2026.06.27-2",
+    "generated": "27 JUN 2026",
+    "edition": "Agentic-governance edition (web-verified)",
+    "note": "Latest build — copy this whole file into content.json on GitHub."
+  },
   "issue": "Vol. III · No. 26",
   "dateline": "Week of 22–26 June 2026",
   "published": "27 JUN 2026",
